@@ -12,7 +12,8 @@
                 text-align:center;
                 border-color:teal;
                 font-family:'Lucida Handwriting';
-                font-size:16px;">
+                font-size:16px;
+                color:palevioletred;">
         <form id="form1" runat="server">
             <asp:Label ID="Label1" runat="server" Text="¡Hola Alba!"></asp:Label>
             <p>
