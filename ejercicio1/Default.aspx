@@ -8,14 +8,19 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-        <asp:Label ID="Label1" runat="server" Text="¡Hola Alba!"></asp:Label>
-        <p>
-            <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
-            <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
-        </p>
-    </form>
+    <div style="border:solid;
+                text-align:center;
+                border-color:teal;
+                font-family:'Lucida Handwriting';
+                font-size:16px;">
+        <form id="form1" runat="server">
+            <asp:Label ID="Label1" runat="server" Text="¡Hola Alba!"></asp:Label>
+            <p>
+                <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+            </p>
+        </form>
+    </div>
+    
 </body>
 </html>
